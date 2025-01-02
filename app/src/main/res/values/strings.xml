@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Savvy</string>
+    <string name="come_join_us">Come join us. Register yourself now!</string>
+    <string name="log_in_text">Log In</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="get_started_text">Get Started</string>
+    <string name="welcome_back_text">Welcome Back</string>
+    <string name="create_account_subtitle">by creating a free account</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_email">Valid email</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_password">Strong Password</string>
+    <string name="terms_conditions_text">By clicking the box you agree to our Terms and Conditions.</string>
+    <string name="login_prompt">Already a member? Log In</string>
 </resources>
