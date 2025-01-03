@@ -28,7 +28,13 @@ class OnBoardingActivity : AppCompatActivity() {
         }
 
         findViewById<AppCompatButton>(R.id.signUpFromOnBoarding).setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, SignUpActivity::class.java))
+            finish()
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+        }
+
+        findViewById<AppCompatButton>(R.id.logInFromOnBoarding).setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
             finish()
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }

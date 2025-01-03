@@ -12,4 +12,17 @@
     </style>
 
     <style name="Theme.Savvy" parent="Base.Theme.Savvy" />
+
+    <style name="SignInUpButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:background">@drawable/background_button_fill</item>
+        <item name="android:backgroundTint">@color/splashColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/bahnschrift</item>
+        <item name="android:layout_marginHorizontal">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
 </resources>
